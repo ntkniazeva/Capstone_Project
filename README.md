@@ -23,7 +23,9 @@ The project includes data collection, data cleaning, exploratory data analysis, 
 * NumPy
 * Matplotlib
 * Seaborn
-* Jupyter Notebook
+* Statsmodels
+* Requests
+* SQLite
 
 ## Repository Structure
 
