@@ -9,12 +9,11 @@ The project includes data collection, data cleaning, exploratory data analysis, 
 
 ## Project Workflow
 
-1. Data collection using APIs
-2. Web scraping
-3. Data exploration
-4. Data cleaning and transformation
-5. Exploratory data analysis
-6. Data visualization
+1. Data collection using APIs and web scraping
+2. Data cleaning and transformation
+3. Exploratory data analysis
+4. Data visualization
+5. Insights and conclusions
 
 ## Technologies Used
 
@@ -30,9 +29,21 @@ The project includes data collection, data cleaning, exploratory data analysis, 
 ## Repository Structure
 
 ```
-notebooks/  – analysis notebooks  
-data/       – datasets used in the analysis  
-reports/    – final capstone project report  
+ibm-data-analyst-capstone
+│
+├── notebooks/
+│ └── technology_trends_analysis.ipynb – main analysis notebook
+│
+├── data/
+│ ├── m4_survey_data.sqlite – project database
+│ ├── m5_survey_data_demographics.csv – survey demographic data
+│ └── popular-languages.csv – programming language data
+│
+├── reports/
+│ └── capstone_project_report.pdf – final project report
+│
+├── requirements.txt – Python dependencies
+└── README.md – project documentation
 ```
 
 ## Result
